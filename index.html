@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="TE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pertional Portfolio Website - Naveen menariya</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a5bbc583ce.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="images/logo.png" class="logo"> -->
+                <img src="images/navlogo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Certificates</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>B.tech Student</p>
+                <h1>Hi, I'm <span>Naveen</span><br>Menariya From Rajasthan</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------about-------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <!-- <img src="images/user.png"> -->
+                    <img src="images/navuser.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hey there! I'm a computer science student who's enthusiastic and dedicated. 
+                        I have experience, with a range of skills like Java, C++, Python, C programming, HTML, CSS.
+                        I'm super excited about using my abilities to make an impact, in the tech world. 
+                        Let's connect and explore opportunities to collaborate!
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Language</span><br>Java, C, C++ and Python</li>
+                            <li><span>Web Development</span><br>HTML, CSS</li>
+                            <li><span>Languages</span><br>English & Hindi</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022 - Current</span><br>B.tech</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022 - 2026</span><br>B.tech CSE from Amrita Vishwa Vidhyapeetham Amaravati<br>Current CGPA is 8.61/10</li>
+                            <li><span>2021</span><br>Higher secondary education from RBSE(12th) PCM with 95.80%</li>
+                            <li><span>2019</span><br>Secondary education from RBSE (10th) with 87.50%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ---------------------------Certificates------------------ -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Certificates</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>DSA in Java</h2>
+                <p>Under the guidance of industry experts and co-founder of Apna College Shradha Khapra. <br> Covered data structures like arrays, linked lists, trees, and graphs.
+                    Efficiently implemented algorithms for sorting, searching, and optimization.
+                </p>
+                <a href="https://www.linkedin.com/posts/naveenmenariya_apnacollege-alpha-java-activity-7116287295514693632-ui8Z?utm_source=share&utm_medium=member_desktop">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-microsoft"></i> &nbsp;<i class="fa-brands fa-linkedin"></i>
+                <h2>Career Essentials in Generative AI</h2>
+                <p>Successfully completed fundamentals of Generative AI, including its applications, algorithms, and real-world use cases.</p>
+                <a href="https://www.linkedin.com/posts/naveenmenariya_career-essentials-in-generative-ai-by-microsoft-activity-7168237834473000960-6sMo?utm_source=share&utm_medium=member_desktop">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-spider"></i>
+                <h2>Full stack web development</h2>
+                <p>I am currently expanding my skills in full stack web development to create dynamic and interactive web applications. 
+                    Excited to delve into both front-end and back-end technologies to craft seamless user experiences and robust 
+                    functionalities."
+                </p>
+                <a href="https://www.linkedin.com/in/naveenmenariya/">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------------Portfolio-------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <!-- <img src="images/work-1.png"> -->
+                <img src="images/navwork.png">
+                <div class="layer">
+                    <h3>Project 1</h3>
+                    <p>Work in progress.</p>
+                    <a href="https://github.com/naveenmenariya"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <!-- <img src="images/work-2.png"> -->
+                <img src="images/navwork.png">
+                <div class="layer">
+                    <h3>Project 2</h3>
+                    <p>Work in progress.</p>
+                    <a href="https://github.com/naveenmenariya"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <!-- <img src="images/work-3.png"> -->
+                <img src="images/navwork.png">
+                <div class="layer">
+                    <h3>Project 3</h3>
+                    <p>TWork in progress.</p>
+                    <a href="https://github.com/naveenmenariya"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/naveenmenariya" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- -----------------------contact----------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>naveenmenariya2004@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+91 7073547483</p>
+                <div class="social-icons">
+                    <a href="https://github.com/naveenmenariya"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/naveenmenariya/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://leetcode.com/u/naveenmenariya/"><i class="fa-solid fa-laptop-code"></i></a>
+                    <a href="https://www.facebook.com/naveenmenariya07"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/naveenmenariya_"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/naveen_menariya03"><i class="fa-brands fa-instagram"></i></a>
+                    
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Dowanlode CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Cradit. <i class="fa-solid fa-heart"></i> <a href="https://www.youtube.com/@GreatStackDev">GreatStackDev</a></p>
+    </div>
+</div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzZRm5XJ2-7a11dfdLo8Ld4_ssSB5m133PiNvHdcK6-MYEbz_3KoFglN1YKPJIoFTIF/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
